@@ -63,7 +63,6 @@ It is composed of:
    npm install
    ```
 
-3. Set up your environment variables (see below) , remove the firebase hosting files
 
 4. Start the app:
    ```bash

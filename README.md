@@ -1,6 +1,6 @@
-<h1 align="center"># 🛍️ Ecommerce – Full-Stack Shopping Platform</h1>
+<h1 align="center"># 🛍️ Viorra – Beauty E-commerce App</h1>
 
-Ecommerce is a full-stack cloud-based shopping platform allowing users to register, browse products, manage cart, place orders via PayPal, and leave reviews. It includes a Spring Boot backend and a Vite-powered React frontend deployed via Firebase.
+minimal cosmetic e-commerce app
 
 ---
 
@@ -10,17 +10,13 @@ Ecommerce is a full-stack cloud-based shopping platform allowing users to regist
 - [🚀 Get Started](#-get-started)
   - [📦 Backend Setup (Spring Boot)](#-backend-setup-spring-boot)
   - [🛍️ Frontend Setup (React - Vite)](#-frontend-setup-react)
-- [🔐 Environment Variables](#-environment-variables)
-  - [Frontend `.env`](#frontend-env)
-  - [Backend `application.properties`](#backend-applicationproperties)
 - [📂 Project Structure](#-project-structure)
 - [🛠️ Technologies Used](#️-technologies-used)
-- [🔗 Live Project](#-live-project)
 ---
 
 ## ✨ Introduction
 
-Ecommerce is a modern shopping platform that enables users to:
+Viorra is a modern shopping platform that enables users to:
 
 - Register and authenticate
 - Browse and search products
@@ -30,7 +26,7 @@ Ecommerce is a modern shopping platform that enables users to:
 
 It is composed of:
 - A **Spring Boot** backend for handling users, products, cart, and orders
-- A **React (Vite)** frontend hosted on **Firebase**
+- A **React (Vite)** frontend 
 
 ---
 
@@ -40,7 +36,7 @@ It is composed of:
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/quantambites/ecommerce.git
+   git clone https://github.com/quantambites/ReactAssignmentEcom.git
    cd ecommerce/server
    ```
 
@@ -76,44 +72,6 @@ It is composed of:
 
 ---
 
-## 🔐 Environment Variables
-
-### Frontend `.env`
-
-> Place in `cloud_in_frontend/.env`
-
-```env
-VITE_BACKEND_URL=
-
-```
-
----
-
-### Backend `application.properties`
-
-> Place in `cloud_in_backend/src/main/resources/application.properties`
-
-```properties
-spring.application.name=
-server.port=
-spring.frontend.origin=
-spring.cache.type=
-spring.redis.uri=
-spring.data.mongodb.uri=
-spring.servlet.multipart.max-file-size=
-spring.servlet.multipart.max-request-size=
-cloudinary.cloud-name=
-cloudinary.api-key=
-cloudinary.api-secret=
-paypal.client.id=
-paypal.client.secret=
-paypal.mode=
-
-```
-
-⚠️ **Never commit these values directly. Use `.env` and `.gitignore` to keep them secure.**
-
----
 
 ## 📂 Project Structure
 
@@ -144,15 +102,11 @@ ecommerce/
 
 
 ---
-### 🔗 Live Project
-
-[https://ecommerce-d6069.firebaseapp.com/](https://ecommerce-d6069.firebaseapp.com/)
-
 
 
 
 
 
 <p align="center">
-  <img src="Screenshot 2025-07-09 012750.png" alt="App Screenshot" width="500"/>
+  <img src="home.png" alt="App Screenshot" width="500"/>
 </p>
